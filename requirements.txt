@@ -1,0 +1,19 @@
+# DocScan — Python dependencies
+# Install with: pip install -r requirements.txt
+#
+# ── GPU setup (RTX 3050 / CUDA 12.1) ──────────────────────────────────────────
+# Instead of the torch line below, run:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+# Then verify:
+#   python -c "import torch; print(torch.cuda.is_available(), torch.cuda.get_device_name(0))"
+
+flask>=3.0.0
+opencv-python>=4.9.0
+numpy>=1.26.0
+torch>=2.2.0
+torchvision>=0.17.0
+scipy>=1.12.0
+Pillow>=10.0.0
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+h5py>=3.10.0
