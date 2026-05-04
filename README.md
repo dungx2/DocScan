@@ -35,7 +35,7 @@ source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 2. GPU support (RTX 3050 / CUDA 12.1)
+### 2. GPU support 
 
 ```bash
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
@@ -46,7 +46,7 @@ Verify GPU:
 ```python
 import torch
 print(torch.cuda.is_available())       # → True
-print(torch.cuda.get_device_name(0))   # → NVIDIA GeForce RTX 3050
+print(torch.cuda.get_device_name(0))   
 ```
 
 ### 3. Configure environment
