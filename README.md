@@ -21,7 +21,8 @@ Upload photo → Corner Detection & Perspective → Neural Dewarp → Shadow Rem
 ---
 
 ## Quickstart
-
+Download doc3d-dataset from:
+https://github.com/cvlab-stonybrook/doc3D-dataset
 ### 1. Clone and set up environment
 
 ```bash
